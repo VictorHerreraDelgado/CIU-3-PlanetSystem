@@ -62,13 +62,16 @@ void draw(){
     universe.resize(width,height);
   }
   background(universe);
-  
+  textSize(10);
   translate(width/2,height/2);
   rotateX(radians(-20));
   pushMatrix();
   text(sun.getName(),-sun.getSize(),-sun.getSize() -10);
   sun.drawPlanetAndSurround();
   popMatrix();
+  textSize(20);
+  text("Sistema Planetario",0,-height/4);
+  
   
 
 
