@@ -31,8 +31,8 @@ void setup()
 
 
 void createPlanets(){
-  miniChain1 = new Planet("chained firstMoon",13,chainImage,1,0.1,69,true);
-  miniChain2 = new Planet("chained scondMoon",10,chainImage,-1,-0.1,100,true);
+  miniChain1 = new Planet("chained firstMoon",13,chainImage,1,0.1,69,false);
+  miniChain2 = new Planet("chained scondMoon",10,chainImage,-1,-0.1,100,false);
   chain = new Planet("chained planet",25,chainImage,0.2,0.2,600,false);
   
   moon = new Planet("Moon",5,moonImage,1.5,0.1,30,false);
