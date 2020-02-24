@@ -9,8 +9,8 @@ Planet sun,earth,chain,moon,miniChain1,miniChain2,water,smoke, dust;
 int lastWidth,lastHeight;
 void setup()
 {
-  //fullScreen(P3D);
-  size(1000,1000,P3D);
+  fullScreen(P3D);
+  //size(1000,1000,P3D);
   stroke(0);
   sunImage = loadImage("sun.png");
   chainImage = loadImage("chain.jpg");
@@ -33,13 +33,13 @@ void setup()
 void createPlanets(){
   miniChain1 = new Planet("chained firstMoon",13,chainImage,1,0.1,69,true);
   miniChain2 = new Planet("chained scondMoon",10,chainImage,-1,-0.1,100,true);
-  chain = new Planet("chained planet",25,chainImage,0.1,0.1,height,false);
+  chain = new Planet("chained planet",25,chainImage,0.2,0.2,600,false);
   
-  moon = new Planet("Moon",5,moonImage,0.6,0.1,30,false);
-  earth = new Planet("Earth",20,earthImage,0.3,0.3,300,false);
-  water = new Planet("Watzan",30,waterImage,-0.4,0.2,500,false);
-  smoke = new Planet("Prometheus",20,smokeImage,-0.7,0.5,400,false);
-  dust = new Planet("Dust II",35,dustImage,0.4,1,600,false);
+  moon = new Planet("Moon",5,moonImage,1.5,0.1,30,false);
+  earth = new Planet("Earth",20,earthImage,0.3,0.3,200,false);
+  water = new Planet("Watzan",30,waterImage,-0.4,-0.5,400,false);
+  smoke = new Planet("Prometheus",20,smokeImage,-0.7,0.5,300,false);
+  dust = new Planet("Dust II",35,dustImage,0.4,1,500,false);
   
   sun = new Planet("Sun",40,sunImage,0,0.5,0,false);
   
@@ -64,7 +64,7 @@ void draw(){
   background(universe);
   
   translate(width/2,height/2);
-  rotateX(radians(-30));
+  rotateX(radians(-20));
   pushMatrix();
   text(sun.getName(),-sun.getSize(),-sun.getSize() -10);
   sun.drawPlanetAndSurround();
