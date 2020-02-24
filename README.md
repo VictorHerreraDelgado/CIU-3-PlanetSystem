@@ -12,7 +12,7 @@ Este programa consiste en una representación de un sistema planetario, en este 
 El sistema cuenta con una estrella principal (sun) que se muestra en el centro de la pantalla, rodeada por cinco planetas que giran alrededor suyo (Earth, Prometheus, Watzan, Dust II y Chained planet). Estos planetas presentan distintos tamaños además de que se mueven y rotan sobre si mismos a distintas velocidades (incluso en distintas direcciones en algunos casos). 
 Dos de los planetas (Earth y Chained planet) presentan también astros girando alrededor de cada uno también con distintas velocidades.
 
-Se muestra el nombre de cada uno de los planetas siempre al usuario, aunque en el caso de los astros, debido a su movimiento solo podrán ser vistos en algunos casos.
+Se muestra el nombre de cada uno de los planetas siempre al usuario, aunque en el caso de los astros, debido a su movimiento sus nombres solo podrán ser vistos en algunos casos.
 Cabe destacar por último que se le ha aplicado una textura a cada cuerpo que forma el sistema planetario.
 
 
