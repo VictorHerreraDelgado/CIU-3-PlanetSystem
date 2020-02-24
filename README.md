@@ -26,7 +26,7 @@ El código consiste en dos archivos:
 Por lo tanto, al dibujarse solo se llama al método de dibujo de la estrella y los demás cuerpos se dibujarán deribando de este.
 
 ## Funcionamiento
-
+![](Practica3.gif)
 
 ## Herramientas
 
