@@ -20,12 +20,13 @@ Cabe destacar por último que se le ha aplicado una textura a cada cuerpo que fo
 ## Resumen del código
 El código consiste en dos archivos:
 
-- El archivo *Practica3*, que es el principal y por lo tanto encargado de crear, cargar e inicializar los componentes necesarios para el funcionamiento del programa (crear planetas, cargar imágenes, etc) así como de mandar a dibujar el sistema planetario en pantalla.
+- El archivo *Practica3*, que es el principal y por lo tanto encargado de crear, cargar e inicializar los componentes necesarios para el funcionamiento del programa (crear planetas, cargar imágenes, etc.) así como de mandar a dibujar el sistema planetario en pantalla.
 - El archivo *Planet*, que es la representación de un cuerpo en el sistema solar (planeta,astro o estrella). Este no solo inicializará sus características y se podrá dibujar a sí mismo a partir de estas, sino que además guardará una lista con los cuerpos que giran alrededor suya para que se dibujen cuando lo manden a dibujarse a si mismo.
 
-Por lo tanto, al dibujarse solo se llama al método de dibujo de la estrella y los demás cuerpos se dibujarán deribando de este.
+Por lo tanto, al dibujarse solo se llama al método de dibujo de la estrella y los demás cuerpos se dibujarán derivando de este.
 
 ## Funcionamiento
+El gif no muestra el verdadero rendimiento de la aplicación.
 ![](Practica3.gif)
 
 ## Herramientas
